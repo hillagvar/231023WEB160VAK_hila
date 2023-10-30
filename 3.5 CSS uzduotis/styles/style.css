@@ -1,0 +1,34 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 50%;
+    max-width: 800px;
+    background-color: #dfdede;
+    margin: 0 auto;
+}
+
+form {
+    width: 100%;
+    padding: 15px 20px;
+}
+
+label, input {
+    display: block;
+    width: 100%;
+    padding: 15px 0;
+}
+
+button {
+    display: block;
+    margin: 50px auto 15px auto;
+    padding: 10px 25px;
+    font-size: 24px;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
