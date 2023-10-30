@@ -1,0 +1,76 @@
+body {
+    background-color: #c0c0c0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    background-color: #dfdfdf;
+    color: #64645a;
+    padding: 15px;
+}
+
+p {
+    color: white;
+    margin: 0;
+    padding: 5px;
+}
+
+p:nth-of-type(1) {
+    background-color: #0088dd;
+}
+
+p:nth-of-type(2) {
+    background-color: #0095e2;
+}
+
+p:nth-of-type(3) {
+    background-color: #00a0e6;
+}
+
+p:nth-of-type(4) {
+    background-color: #30aae9;
+}
+
+p:nth-of-type(5) {
+    background-color: #54b6ed;
+}
+
+p:nth-of-type(6) {
+    background-color: #72c1f0;
+}
+
+p:nth-of-type(7) {
+    background-color: #8ccaf2;
+}
+
+p:nth-of-type(8) {
+    background-color: #00bb88;
+}
+
+p:nth-of-type(9) {
+    background-color: #f5b0cc;
+}
+
+p:nth-of-type(10) {
+    background-color: #f69fc0;
+}
+
+p:nth-of-type(11) {
+    background-color: #f58cb2;
+}
+
+p:nth-of-type(12) {
+    background-color: #f47ba6;
+}
+
+p:nth-of-type(13) {
+    background-color: #f36a98;
+}
+
+p:nth-of-type(14) {
+    background-color: #f45a8b;
+}
+
+p:nth-of-type(15) {
+    background-color: #ee3e80;
+}

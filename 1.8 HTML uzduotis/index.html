@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="lt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>1.8 HTML užduotis</title>
+  </head>
+  <body>
+    <form action="">
+      <h1>Registracijos forma</h1>
+      <fieldset>
+        <legend>STUDENTAS</legend>
+        <table>
+          <tr>
+            <td><label for="name">Vardas:</label></td>
+            <td><input type="text" id="name" /></td>
+          </tr>
+          <tr>
+            <td><label for="email">El. paštas:</label></td>
+            <td><input type="email" id="email" /></td>
+          </tr>
+          <tr>
+            <td><label for="birthdate">Gimimo data:</label></td>
+            <td><input type="date" id="birthdate" /></td>
+          </tr>
+          <tr>
+            <td><label for="address">Adresas:</label></td>
+            <td><input type="text" id="address" /></td>
+          </tr>
+        </table>
+        <label for="info">Papildoma informacija:</label><br />
+        <textarea id="info" cols="80" rows="8"></textarea>
+      </fieldset>
+
+      <h1>Jūsų pomėgiai</h1>
+      <fieldset>
+        <legend>PASIRINKITE SAVO POMĖGIUS</legend>
+
+        <span>Jūsų mėgstamas sportas?</span>
+        <br>
+          
+              <label for="q1ch1">Krepšinis</label>
+              <input type="checkbox" id="q1ch1" />
+              <label for="q1ch2">Futbolas</label>
+              <input type="checkbox" id="q1ch2" /><br>
+            
+              <label for="q1ch3">Tinklinis</label>
+              <input type="checkbox" id="q1ch3" />
+              <label for="q1ch4">Bėgimas</label>
+              <input type="checkbox" id="q1ch4" /><br>
+           
+              <label for="q1ch5">Regbis</label>
+              <input type="checkbox" id="q1ch5" />
+              <label for="q1ch6">Boksas</label>
+              <input type="checkbox" id="q1ch6" />
+
+        <br /><br>
+
+        <label for="question2">Jūsų mėgstamiausias filmo žanras?</label>
+        <select id="question2">
+          <option value="komedija">Komedija</option>
+          <option value="trileris">Trileris</option>
+          <option value="drama">Drama</option>
+          <option value="dokumentinis">Dokumentinis</option>
+          <option value="animacija">Animacija</option>
+        </select>
+
+        <br><br>
+
+        <span>Ar jums patinka keliauti?</span>
+        <br>
+          
+                <label for="q3ch1">Ne</label>
+                <input type="radio" name="group1" id="q3ch1">
+                <label for="q3ch2">Galbūt</label>
+                <input type="radio" name="group1" id="q3ch2">
+                <label for="q3ch3">Taip</label>
+                <input type="radio" name="group1" id="q3ch3">
+            
+                <br><br>
+        <button>Registruotis</button>
+      </fieldset>
+    </form>
+  </body>
+</html>

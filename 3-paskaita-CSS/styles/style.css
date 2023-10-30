@@ -1,0 +1,40 @@
+body {
+    background-color: bisque;
+}
+
+h1 {
+    color:darkcyan;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1.raudonas {
+    color: #d35555;
+}
+
+h1:hover {
+    color: yellow;
+}
+
+p.raudonas {
+    color: #c92424;
+    font-weight: bold;
+}
+
+h2.sub-title.zalia {
+    text-align: center;
+    font-size: 32px;
+    color:olive;
+}
+
+table p {
+    font-size: 10px;
+}
+
+table, tr, td {
+    border: 2px solid #102e04;
+}
+
+.kursyvas {
+    font-style: italic;
+}

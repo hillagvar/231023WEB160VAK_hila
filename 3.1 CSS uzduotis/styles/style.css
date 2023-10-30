@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #ee3e80;
+    font-size: 35px;
+}
+
+h2 {
+    color: #ee498a;
+    font-size: 26px;
+}
+
+p {
+    font-size: 18px;
+}
+
+p.brown {
+    color:#5f5c3e;
+}
+
+.cursive {
+    font-style: italic;
+}
