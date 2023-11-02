@@ -1,9 +1,7 @@
 body {
     font-family:'Courier New', Courier, monospace;
-    border-style: double;
-    border-width: 4px;
-    border-color: black;
-    margin: 3px;
+    border: 5px double #3d3b3b;
+    margin: 4px;
 }
 
 .content {
@@ -30,12 +28,12 @@ a {
     font-size: 16px;
     text-transform: uppercase;
     text-decoration: none;
-    color: rgb(26,26,26);
+    color: #3d3b3b;
     font-weight: bold;
 }
 
 a:hover, a.active {
-    color: rgb(214, 105, 86);
+    color: #d66956;
 }
 
 .illustration {
@@ -47,5 +45,5 @@ p {
     width: 90%;
     margin: 0 auto 40px;
     text-align: center;
-    color: rgb(59,59,59);
+    color: #3d3b3b;
 }
