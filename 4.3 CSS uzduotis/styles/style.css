@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+}
+
+.animated {
+    position: relative;
+    width: 120px;
+    height: 100px;
+    background-color: cyan;
+    transition: 1.5s;
+}
+
+.animated:hover {
+    width: 100%;
+    cursor: pointer;
+}
+
+
+h1 {
+    font-size: 50px;
+    font-weight: normal;
+    position: absolute; 
+    left: -1000px;
+    margin-top: 10px;
+    color: cyan;
+    transition: 1.5s;
+}
+
+.animated:hover h1 {
+    left: 0;
+    color: black;
+}
+
+
+
+
+
+
+
