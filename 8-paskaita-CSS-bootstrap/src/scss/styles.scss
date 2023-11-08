@@ -1,0 +1,23 @@
+
+@import '../node_modules/bootstrap/scss/functions';
+@import '../node_modules/bootstrap/scss/variables';
+
+$new-colors: (
+    geltona: #e1ff00,
+    
+);
+
+$colors: map-merge($colors, $new-colors);
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+
+
+
+
+
+
+
+
