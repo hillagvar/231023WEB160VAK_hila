@@ -6,6 +6,6 @@
     font-weight: 400;
 }
 
-div.col.s12 h4 {
-    margin: 1.52rem 0;
+h4.white-text {
+    margin: 24px 0;
 }
