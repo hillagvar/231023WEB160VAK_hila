@@ -1,0 +1,274 @@
+body {
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+header {
+    position: relative;
+    background-image: url("../images/header.jpg");
+    height: 672px;
+    width: 100%;
+    background-position: top;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000040a7;
+    width: 100%;
+    height: 100%;
+}
+
+header h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -125%);
+    color: white;
+    font-size: 44px;
+}
+
+.sub-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 30%);
+    color: white;
+    font-size: 20px;
+}
+
+.left-line {
+    position: absolute;
+    top: 50%;
+    left: -70%;
+    width: 70px;
+    margin: 0;
+    background-color: white;
+    height: 1px;
+}
+
+.right-line {
+    position: absolute;
+    top: 50%;
+    right: -70%;
+    width: 70px;
+    margin: 0;
+    background-color: white;
+    height: 1px;
+}
+
+.logo {
+    width: 100px;
+}
+
+.top-menu {
+    width: 60%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    top: 20px;
+    left: 20%;
+}
+
+.top-menu nav a {
+    color: white;
+    padding-left: 30px;
+    text-decoration: none;
+}
+
+.down-arrow {
+    width: 15px;
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+main {
+    margin-top: 60px;
+    margin-bottom: 70px;
+}
+
+main h2 {
+    text-align: center;
+    color: #000040;
+    margin-bottom: 0;
+}
+
+main hr {
+    width: 75px;
+    background-color: #000040;
+    height: 1px;
+}
+
+.main-content {
+    width: 60%;
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.main-item img {
+    display: block;
+    margin: 0 auto;
+    width: 250px;
+    border-radius: 50%;
+}
+
+.main-item p {
+    text-align: center;
+    padding: 0 10px;
+}
+
+.main-item h3 {
+    text-align: center;
+    color: #000040;
+}
+
+.second-section {
+    background-color: #dcdcdc;
+    padding: 50px 0;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.gallery img {
+    width: calc(15% - 15px);
+}
+
+.gallery .left-arrow {
+    width: 15px;
+    height: 25px;
+    margin-right: -5px;
+}
+
+.gallery .right-arrow {
+    width: 15px;
+    height: 25px;
+    margin-left: -5px;
+}
+
+.follow-link {
+    width: 220px;
+    margin: 30px auto 10px;
+    padding: 10px 15px;
+    text-align: center;
+    background-color: white;
+    border: 1px solid #bfbfbf;
+    border-radius: 5px; 
+}
+
+.follow-link a {
+    color: #000040;
+    text-decoration: none;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.follow-link img {
+    width:25px;
+    vertical-align: middle;
+}
+
+.contacts {
+    background-color: #000040;
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+
+.contacts-flex {
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contacts h2 {
+    text-align: center;
+    color: white;
+    margin-bottom: 0;
+}
+
+.contacts hr {
+    width: 75px;
+    background-color: white;
+    height: 1px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+}
+
+form input, form textarea {
+    padding: 15px;
+}
+
+iframe {
+    width: 50%;
+    height: auto;
+}
+
+button {
+    padding: 10px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #000080;
+    border: 1px solid #000080;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+textarea {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 50px;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    gap: 45px;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo-footer {
+    width: 80px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    gap: 45px;
+}
+
+.social-links img {
+    width: 30px;
+}
