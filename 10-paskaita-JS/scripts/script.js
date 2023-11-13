@@ -186,3 +186,16 @@ masyvas.unshift("Bebras");
 console.log(masyvas);
 
 console.log(masyvas.indexOf("Arklys"));
+
+let spalvos = ["raudona", "žalia", "mėlyna"];
+console.log(spalvos);
+spalvos.push("juoda");
+console.log(spalvos);
+spalvos.shift();
+console.log(spalvos);
+spalvos[0] = "mėlyna";
+console.log(spalvos);
+spalvos[1] = "žalia";
+console.log(spalvos);
+spalvos.unshift("geltona");
+console.log(spalvos);
