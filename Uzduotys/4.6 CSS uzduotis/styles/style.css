@@ -1,6 +1,7 @@
 body {
   background-color: #151515;
   margin: 0;
+  overflow-x: hidden;
 }
 
 .hero-icon {
@@ -16,7 +17,7 @@ body {
   height: 720px;
   margin: 0 auto 104px;
   position: relative;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .top-icons-hidden {
@@ -91,7 +92,6 @@ body {
 .hero-img {
   width: 445px;
   height: 720px;
-  /* float: right; */
   position: absolute;
   right: 0;
 }
@@ -250,16 +250,10 @@ h4.contact-me {
   background-color: #6c1bf0;
 }
 
-main {
-  position: relative;
-  overflow: hidden;
-}
-
 .container-big {
   width: 1110px;
   margin: 0 auto;
   position: relative;
-  overflow-x: hidden;
 }
 
 .flexbox-small {
@@ -309,11 +303,11 @@ h4.contact-me-2 {
 
 .elipses-2 {
   position: absolute;
-    width: 530px;
-    height: 80px;
-    top: 252px;
-    right: -254px;
-    z-index: -1;
+  width: 530px;
+  height: 80px;
+  top: -62px;
+  right: -404px;
+  z-index: -1;
 }
 
 .flexbox-gallery {
@@ -607,8 +601,8 @@ h4.contact-me-2 {
   }
 
   .elipses-2 {
-    top: 384px;
-    right: -134px;
+    top: -166px;
+    right: -360px;
   }
 
   .gallery-item-text-hidden {
@@ -869,8 +863,8 @@ h4.contact-me-2 {
   }
 
   .elipses-2 {
-    top: 262px;
-    right: -218px;
+    top: -144px;
+    right: -398px;
   }
 
   .elipses-3 {
