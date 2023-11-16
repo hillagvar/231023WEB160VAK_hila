@@ -19,7 +19,7 @@ function arPilnametis(gimimoData) {
 
   if (dabartiniaiMetai - gimimoMetai < 20) {
     return false; 
-  } else if (dabartiniaiMetai - gimimoMetai == 20) {
+  } else if (dabartiniaiMetai - gimimoMetai === 20) {
     if (dabartinisMenuo < gimimoMenuo) {
       return false;
     } else if (dabartinisMenuo === gimimoMenuo) {
@@ -35,10 +35,10 @@ let gimimoData = prompt("Įveskite savo gimimo datą YYYY-MM-DD");
 
 if (arPilnametis(gimimoData)) {
   console.log("Jūs esate pilnametis");
-  document.getElementById("exp").innerHTML = "SVEIKINAME, JUMS PARDUOS ALAUS!";
+  // document.getElementById("exp").innerHTML = "SVEIKINAME, JUMS PARDUOS ALAUS!";
 } else {
   console.log("Jūs esate nepilnametis");
-  document.getElementById("exp").innerHTML = "DEJA, JUMS NEPARDUOS ALAUS :(";
+  // document.getElementById("exp").innerHTML = "DEJA, JUMS NEPARDUOS ALAUS :(";
 }
 
 
