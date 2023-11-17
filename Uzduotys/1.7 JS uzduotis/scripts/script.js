@@ -5,7 +5,8 @@ function dienaPagalSkaiciu(skaicius) {
 
 }
 
-console.log(dienaPagalSkaiciu(7));
+let savaitesDiena = dienaPagalSkaiciu(7);
+console.log(savaitesDiena);
 
 
 
