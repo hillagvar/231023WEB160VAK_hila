@@ -19,23 +19,22 @@ function arPilnametis(gimimoData) {
     gimimoDiena = Number(gimimoData.slice(8, 10));
   }
 
-
   if (dabartiniaiMetai - gimimoMetai < 20) {
     return false;
   }
-  
+
   if (dabartiniaiMetai - gimimoMetai === 20) {
     if (dabartinisMenuo < gimimoMenuo) {
       return false;
     }
-    
+
     if (dabartinisMenuo === gimimoMenuo) {
       if (dabartineDiena < gimimoDiena) {
         return false;
       }
     }
   }
-    
+
   return true;
 }
 
