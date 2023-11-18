@@ -9,4 +9,3 @@ let person = {
 
 console.log(person);
 
-// console.log(person.hobiai[0]);
