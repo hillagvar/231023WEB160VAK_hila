@@ -1,9 +1,6 @@
 const divai = document.getElementsByTagName("div");
 const paragrafai = document.getElementsByTagName("p");
 
-console.log(divai);
-console.log(paragrafai);
-
 for (i = 0; i < divai.length; i++) {
     console.log(divai[i]);
 }
