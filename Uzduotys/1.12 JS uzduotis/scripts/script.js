@@ -13,7 +13,7 @@ let darbuotojai = [
   new Darbuotojas("Virginija", "direktorė", 30000, 7)
 ];
 
-console.log(darbuotojai);
+// console.log(darbuotojai);
 
 let darbuotojai2 = darbuotojai.filter(function(darbuotojas) {
   return darbuotojas.atlyginimas < 30000 && darbuotojas.patirtiesMetai > 5;
