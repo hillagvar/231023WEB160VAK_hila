@@ -6,6 +6,7 @@ let darbuotojai = [
 
 console.log(darbuotojai);
 
+
 darbuotojai = darbuotojai.map(function(darbuotojas) {
   return {...darbuotojas, buvesAtlyginimas : darbuotojas.atlyginimas};
 });
