@@ -7,26 +7,22 @@ let darbuotojai = [
 console.log(darbuotojai);
 
 
-darbuotojai = darbuotojai.map(function(darbuotojas) {
-  return {...darbuotojas, buvesAtlyginimas : darbuotojas.atlyginimas};
-});
+darbuotojai.map(function(darbuotojas) {
+  darbuotojas.buvesAtlyginimas = darbuotojas.atlyginimas;
+  
+  let atlyginimoKoef = Math.floor(Math.random() * 21 + 10);
 
-darbuotojai = darbuotojai.map(function(darbuotojas) {
-  return {...darbuotojas, atlyginimas : darbuotojas.atlyginimas + darbuotojas.atlyginimas * (Math.floor(Math.random() * 21 + 10))/100
-  };
+  darbuotojas.atlyginimas = darbuotojas.atlyginimas + darbuotojas.atlyginimas * atlyginimoKoef/100;
+
+  darbuotojas.algosPalyginimas = function() {
+    console.log(`Darbuotojo ${this.vardas} alga padidėjo nuo ${this.buvesAtlyginimas} iki ${this.atlyginimas} (${Math.round((this.atlyginimas/this.buvesAtlyginimas-1)*100)}%)`);
+  }
+  return darbuotojas;
+
 });
 
 console.log(darbuotojai);
 
-
-darbuotojai = darbuotojai.map(function(darbuotojas) {
-  return {...darbuotojas, algosPalyginimas : function() {
-    let procentas = Math.round((this.atlyginimas/this.buvesAtlyginimas-1)*100);
-    console.log(`Darbuotojo ${this.vardas} alga padidėjo nuo ${this.buvesAtlyginimas} iki ${this.atlyginimas} (${procentas}%)`);
-  }};
-});
-
-// console.log(darbuotojai);
 
 darbuotojai[0].algosPalyginimas();
 darbuotojai[1].algosPalyginimas();
