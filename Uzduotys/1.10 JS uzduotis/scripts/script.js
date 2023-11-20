@@ -2,12 +2,12 @@ function rastiIlgiausiaZodi(masyvas) {
   let spltMasyvas;
   let ilgiausioZodzioIlgis;
   let ilgiausioZodzioReiksme;
+  let ilgiausiZodziai = [];
 
   for (x = 0; x < masyvas.length; x++) {
     ilgiausioZodzioIlgis = 0;
     ilgiausioZodzioReiksme = "";
     spltMasyvas = masyvas[x].split(" ");
-    // console.log(spltMasyvas);
 
     for (i = 0; i < spltMasyvas.length; i++) {
       if (spltMasyvas[i].length > ilgiausioZodzioIlgis) {
@@ -15,8 +15,9 @@ function rastiIlgiausiaZodi(masyvas) {
         ilgiausioZodzioReiksme = spltMasyvas[i];
       }
     }
-    console.log(ilgiausioZodzioReiksme);
+    ilgiausiZodziai.push(ilgiausioZodzioReiksme);
   }
+  return ilgiausiZodziai;
 }
 
 let posts = [
@@ -26,4 +27,4 @@ let posts = [
   "Rasti video medžiagą visada šaunu",
 ];
 
-rastiIlgiausiaZodi(posts);
+console.log(rastiIlgiausiaZodi(posts));
