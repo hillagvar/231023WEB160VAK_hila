@@ -1,32 +1,12 @@
-const square = document.querySelector("div.square");
-const circle = document.querySelector("div.circle");
-const triangle = document.querySelector("div.triangle");
-const rectangle = document.querySelector("div.rectangle");
-const pentagon = document.querySelector("div.pentagon");
+let divai = document.getElementsByTagName("div");
 
-square.classList.remove("square");
-circle.classList.remove("circle");
-triangle.classList.remove("triangle");
-rectangle.classList.remove("rectangle");
-pentagon.classList.remove("pentagon");
+//removeAttribute("class")
+for (let divas of divai) {
+    divas.classList.remove(divas.classList[0]);
+}
 
-square.classList.add("square");
-circle.classList.add("circle");
-triangle.classList.add("triangle");
-rectangle.classList.add("rectangle");
-pentagon.classList.add("pentagon");
+let klases = ["square","circle","triange","rectangle","pentagon"];
 
-square.classList.toggle("square");
-square.classList.toggle("square");
-
-circle.classList.toggle("circle");
-circle.classList.toggle("circle");
-
-triangle.classList.toggle("triangle");
-triangle.classList.toggle("triangle");
-
-rectangle.classList.toggle("rectangle");
-rectangle.classList.toggle("rectangle");
-
-pentagon.classList.toggle("pentagon");
-pentagon.classList.toggle("pentagon");
+for (let i = 0; i < divai.length; i++) {
+        divai[i].classList.add(klases[i]);
+}
