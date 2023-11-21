@@ -4,12 +4,12 @@ function rastiIlgiausiaZodi(masyvas) {
   let ilgiausioZodzioReiksme;
   let ilgiausiZodziai = [];
 
-  for (x = 0; x < masyvas.length; x++) {
+  for (let x = 0; x < masyvas.length; x++) {
     ilgiausioZodzioIlgis = 0;
     ilgiausioZodzioReiksme = "";
     spltMasyvas = masyvas[x].split(" ");
 
-    for (i = 0; i < spltMasyvas.length; i++) {
+    for (let i = 0; i < spltMasyvas.length; i++) {
       if (spltMasyvas[i].length > ilgiausioZodzioIlgis) {
         ilgiausioZodzioIlgis = spltMasyvas[i].length;
         ilgiausioZodzioReiksme = spltMasyvas[i];
