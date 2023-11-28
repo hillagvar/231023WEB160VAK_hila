@@ -11,6 +11,7 @@ async function getJoke() {
   let jokeData = await response.json();
 
   let jokeElement = document.querySelector("p");
+  let jokeImageElement = document.querySelector("img");
 
   if (document.querySelector("p") === null) {
     jokeElement = document.createElement("p");
@@ -18,6 +19,14 @@ async function getJoke() {
     document.body.append(jokeElement);
   } else {
     jokeElement.textContent = jokeData.joke;
+  }
+
+  if (document.querySelector("img") === null) {
+    jokeImageElement =document.createElement("img")
+    jokeImageElement.setAttribute("src", `https://icanhazdadjoke.com/j/${jokeData.id}.png`);
+    document.body.append(jokeImageElement);
+  } else {
+    jokeImageElement.setAttribute("src", `https://icanhazdadjoke.com/j/${jokeData.id}.png`);
   }
 }
 
